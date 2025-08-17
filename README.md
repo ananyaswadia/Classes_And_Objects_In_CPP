@@ -44,7 +44,7 @@ Objects are the actual entities that are created as an instance of a class. Ther
 7. Calculate and display volume = length × width × height.
 
 8. End.
-### Cuve volume (public and private objects)
+### Cube volume (public and private objects)
 1. Start.
 
 2. Define class Cube with private data members: length, width, height.
