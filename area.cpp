@@ -9,8 +9,6 @@ class Area{
     int length;
     int width;
     int height;
-    int A= width*length;
-    int V= width*length*height;
 };
 int main(){
     Area a1;
@@ -29,9 +27,9 @@ int main(){
     if(a1.length<0 || a1.width<0){
         cout<<"ERROR: Length and width cannot be negative.";
     }
-    else cout<<"Area is: "<<a1.A<<endl;
+    else cout<<"Area is: "<<a1.length*a1.width<<endl;
    
-    cout<<"Volume of the 3d shape is: "<<a1.V<<endl;
+    cout<<"Volume of the 3d shape is: "<<a1.length*a1.width*a1.height<<endl;
 }
 /* OUTPUT
 Enter length: 5
@@ -40,4 +38,5 @@ Enter height: 5
 It's a Cube
 Area is: 25
 Volume of the 3d shape is: 125
+
 */
