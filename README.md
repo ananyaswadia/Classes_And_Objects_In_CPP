@@ -16,5 +16,45 @@ Objects are the actual entities that are created as an instance of a class. Ther
 <img width="1050" height="479" alt="image" src="https://github.com/user-attachments/assets/14b5c841-2503-4d68-9f86-38eafe56c20e" />
 
 ## Algorithms
+### Create a class car and its related objects
+1. Start.
+
+2. Define a class Car with attributes: brand and year.
+
+3. Declare an array of Car objects.
+
+4. For each car, Input brand and year.
+
+5. Display brand and year.
+
+6. End.
+### Calculate area and volume of cube
+1. Start.
+
+2. Define class Area with members: length, width, height.
+
+3. Input length, width, and height.
+
+4. If length = width → print "Cube", else print "Cuboid".
+
+5. If length or width < 0 → print error.
+
+6. Else calculate and display area = length × width.
+
+7. Calculate and display volume = length × width × height.
+
+8. End.
+### Cuve volume (public and private objects)
+1. Start.
+
+2. Define class Cube with private data members: length, width, height.
+
+3. Define a public function volume() that calculates and returns length × width × height.
+
+4. Create an object of Cube.
+
+5. Call volume() and display the result.
+
+6. End.
 ## Conclusion 
 We learn basics of OOPs , classes , objects and class methods in C++.
