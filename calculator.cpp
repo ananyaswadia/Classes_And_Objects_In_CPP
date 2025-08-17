@@ -8,29 +8,35 @@ class Calculator{
     public:
     int num1;
     int num2;
+    int operation,sum,sub,mul,divi;
    
-    int sum= num1+num2;
-    int sub= num1-num2;
-    int mul= num1*num2;
-    float div= num1/num2;
+   int calci(){
+       cout<<"Enter first number: ";
+    cin>>num1;
+    cout<<"Enter second number: ";
+    cin>> num2;
+       cout<<"Addition of "<<num1<<" & "<<num2<<" is: "<<num1+num2<<endl;
+       cout<<"Subtraction of "<<num1<<" & "<<num2<<" is: "<<num1-num2<<endl;
+       cout<<"Multiplication of "<<num1<<" & "<<num2<<" is: "<<num1*num2<<endl;
+       cout<<"Division of "<<num1<<" & "<<num2<<" is: "<<num1/num2<<endl;
+       return 0;
+   }
    
 };
 
 int main(){
     Calculator c1;
-    cout<<"Enter first number: ";
-    cin>>c1.num1;
-    cout<<"Enter second number: ";
-    cin>> c1.num2;
+    int calci1= c1.calci();
+    cout<<calci1;
    
-    cout<<"Addition of "<<c1.num1<<" & "<<c1.num2<<" is: "<<c1.sum;
     return 0;
 }
-/* OUTPUT
-Enter first number: 10
-Enter second number: 5
-Addition of 10 and 5 is: 15
-Subtraction of 10 and 5 is: 5
-Multiplication of 10 and 5 is: 150
-Division of 10 and 5 is: 2
+
+/* output 
+Enter first number: 12
+Enter second number: 12
+Addition of 12 & 12 is: 24
+Subtraction of 12 & 12 is: 0
+Multiplication of 12 & 12 is: 144
+Division of 12 & 12 is: 1
 */
