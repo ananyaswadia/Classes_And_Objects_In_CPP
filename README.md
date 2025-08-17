@@ -44,6 +44,24 @@ Objects are the actual entities that are created as an instance of a class. Ther
 7. Calculate and display volume = length × width × height.
 
 8. End.
+### Volume of cube using methods inside and outside the class 
+1. Start.
+
+2. Define class Cube with members: height, width, length.
+
+3. Inside the class, define: volume_in() → calculates and prints volume (length × width × height).
+
+4. Declaration of volume_out().
+
+5. Define volume_out() outside the class → calculates and prints volume.
+
+6. Input height, width, and length.
+
+7. Call volume_in() (inside method).
+
+8. Call volume_out() (outside method).
+
+9. End.
 ### Cube volume (public and private objects)
 1. Start.
 
